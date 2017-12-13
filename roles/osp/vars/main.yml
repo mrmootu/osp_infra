@@ -1,0 +1,7 @@
+---
+cloud: ospcloud
+image: rhel-guest
+flavor_name: m2.small
+deployment: dev
+security_groups: ICMP_and_SSH
+has_external_network: false
